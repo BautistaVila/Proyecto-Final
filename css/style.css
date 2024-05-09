@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+* {
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html {
+  scroll-behavior: smooth; }
+
+h1 {
+  color: yellow;
+  background-color: blue;
+  text-align: center;
+  top: 0; }
+
+.nav-personal {
+  background-color: #ffe600; }
+
+.ul-centrado {
+  justify-content: flex-end;
+  flex-basis: 0;
+  flex-grow: 0; }
+  .ul-centrado a {
+    color: blue; }
+
+.active {
+  color: blue !important;
+  font-weight: bolder; }
+
+.body-html {
+  background-image: url("https://i.pinimg.com/550x/c3/b9/81/c3b981ea5e5e9b75f5be195aa2906afd.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.body-campeonatos {
+  background-image: url("https://i.pinimg.com/550x/c3/b9/81/c3b981ea5e5e9b75f5be195aa2906afd.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.body-estadio {
+  background-image: url("https://i.pinimg.com/550x/c3/b9/81/c3b981ea5e5e9b75f5be195aa2906afd.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.body-indumentaria {
+  background-image: url("https://i.pinimg.com/550x/c3/b9/81/c3b981ea5e5e9b75f5be195aa2906afd.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.body-jugadores {
+  background-image: url("https://i.pinimg.com/550x/c3/b9/81/c3b981ea5e5e9b75f5be195aa2906afd.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.index-p {
+  text-align: center;
+  font-family: sans-serif;
+  color: white;
+  padding: 30px; }
+
+.index-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  padding: 30px;
+  margin: 30px; }
+  .index-section img {
+    width: 400px; }
+  .index-section iframe {
+    width: 500px; }
+
+.section-campeonatos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  align-items: baseline;
+  padding: 30px; }
+  .section-campeonatos img {
+    width: 400px; }
+
+.texto {
+  color: white;
+  padding: 20px; }
+
+.trofeos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white; }
+
+.section-estadio {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-content: center;
+  justify-content: center;
+  align-items: baseline;
+  justify-items: center; }
+  .section-estadio .Bombonera {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    .section-estadio .Bombonera img {
+      width: 500px; }
+
+.section-indumentaria {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  padding: 30px; }
+  .section-indumentaria .ropa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    box-shadow: 1px 1px 5px 2px blue;
+    background-color: yellow;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px; }
+    .section-indumentaria .ropa button {
+      padding: 5px 10px;
+      margin: 15;
+      border-radius: 15px;
+      background-color: blue;
+      font-family: sans-serif;
+      color: yellow; }
+    .section-indumentaria .ropa img {
+      width: 250px; }
+
+.section-jugadores {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+.jugador {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px; }
+
+.section-jugadores img {
+  width: 500px; }
+
+.Tabla {
+  display: grid;
+  grid-template-columns: repeat(6, 150px);
+  grid-template-rows: repeat(6, 150px);
+  justify-content: center;
+  align-items: stretch;
+  padding: 20px; }
+  .Tabla div {
+    border: blue solid 1px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: yellow; }
+    .Tabla div img {
+      height: 150px; }
+
+.tabla-titulo {
+  color: yellow;
+  background-color: blue;
+  text-align: center; }
+
+.p-campeones {
+  color: white;
+  padding: 50px; }
+
+.escudo-boca {
+  width: 100px; }
+
+@media (max-width: 768px) {
+  .section-indumentaria {
+    grid-template-columns: repeat(2, 1fr); }
+  .section-campeonatos {
+    grid-template-columns: repeat(1, 1fr); }
+  .section-estadio {
+    grid-template-columns: repeat(1, 1fr); }
+  .index-section {
+    grid-template-columns: repeat(1, 1fr); } }
+
+@media (max-width: 375px) {
+  .section-indumentaria {
+    grid-template-columns: repeat(1, 1fr); } }
