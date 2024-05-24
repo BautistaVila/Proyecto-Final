@@ -74,11 +74,15 @@ h1 {
   padding: 30px;
 }
 
+.index img{
+  width: 500px;
+}
+
 .index-section {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   align-content: center;
   justify-content: center;
   align-items: center;
@@ -87,9 +91,7 @@ h1 {
   margin: 30px;
 }
 
-.index-section img {
-  width: 400px;
-}
+
 
 .index-section iframe {
   width: 500px;
@@ -133,13 +135,18 @@ h1 {
 
 .section-estadio .Bombonera {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  padding: 30px;
+  margin: 30px;
+
 }
 
 .section-estadio .Bombonera img {
-  width: 500px;
+  width: 700px;
 }
 
 .section-indumentaria {
