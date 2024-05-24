@@ -16,6 +16,7 @@ h1 {
   background-color: blue;
   text-align: center;
   top: 0;
+
 }
 
 .nav-personal {
@@ -74,15 +75,11 @@ h1 {
   padding: 30px;
 }
 
-.index img{
-  width: 500px;
-}
+
 
 .index-section {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   align-content: center;
   justify-content: center;
   align-items: center;
@@ -91,8 +88,14 @@ h1 {
   margin: 30px;
 }
 
-.index-section iframe {
-  width: 500px;
+.ole{
+  width: 600px;
+ 
+}
+
+.equipo{
+width: 600px;
+height: 350px;
 }
 
 .section-campeonatos {
@@ -105,8 +108,11 @@ h1 {
   padding: 30px;
 }
 
-.section-campeonatos img {
-  width: 600px;
+.copas {
+
+  width: 1150px;
+  height: 650px;
+
 }
 
 .texto {
@@ -116,11 +122,13 @@ h1 {
 
 .section-estadio {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   align-content: center;
   justify-content: center;
-  align-items: baseline;
+  align-items: center;
   justify-items: center;
+  padding: 50px;
+  margin: 50px;
 }
 
 .section-estadio .Bombonera {
@@ -135,8 +143,14 @@ h1 {
 
 }
 
+.estadio{
+  width: 600px;
+  height: 400px;
+}
+
 .section-estadio .Bombonera img {
-  width: 700px;
+  width: 600px;
+  height: 400px;
 }
 
 .section-indumentaria {
@@ -176,18 +190,30 @@ h1 {
 }
 
 .section-jugadores {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-content: center;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  justify-items: center;
+  padding: 30px;
+  margin: 30px;
+
+
 }
 
 .jugador {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 70px;
+
+  width: 500px;
+  height: 350px;
+
+}
+
+.video {
+
+  width: 500px;
+  height: 350px;
+
 }
 
 .section-jugadores img {
@@ -246,6 +272,10 @@ h1 {
   }
 
   .index-section {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .section-jugadores {
     grid-template-columns: repeat(1, 1fr);
   }
 }

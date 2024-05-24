@@ -106,9 +106,6 @@ h1 {
         width: 400px;
     }
 
-    iframe {
-        width: 500px;
-    }
 
 }
 
@@ -202,10 +199,18 @@ h1 {
 }
 
 .section-jugadores {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-content: center;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    justify-items: center;
+    padding: 30px;
+    margin: 30px;
+    
+
 
 }
 
@@ -218,7 +223,7 @@ h1 {
 }
 
 .section-jugadores img {
-    width: 500px;
+    width: 100px;
 
 }
 
